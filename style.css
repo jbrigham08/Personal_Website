@@ -5,6 +5,10 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+body{
+    margin: 0px;
+   }
  
 .topnav {
     background-color: #eb0606;
@@ -32,7 +36,7 @@ html {
 }
 
 div.scroll-container {
-    background-color: #333;
+    white-space: nowrap;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -100,6 +104,10 @@ figcaption{
 
 img {
     border-radius: 70%;
+  }
+
+  ol{
+    list-style: none;
   }
 
 
