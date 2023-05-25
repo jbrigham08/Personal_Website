@@ -5,32 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <li><a href="#name">Name</a></li>
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#contactMe">Contact Me</a></li>
-    </nav>
-    
+
+    <div class="topnav">
+        <a href="#https://www.github.com/jbrigham08">My Github</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#bookSession">Book Session</a>
+        <a href="#contactMe" class="split">Contact Me</a>
+    </div>
+
     <div id="name">
-        <h1>Jeff Brigham</h1>
+    <h1>ShotsByJRB</h1>
+
+    <img src="Jeff2.JPG" alt="This is my profile picture" class="center"><br><br>
+    
     </div>
 
     <div id="aboutMe">
         <h2>About Me</h2>
     </div>
 
+    <div id="intro">
+        <p>Welcome to ShotsByJRB, where moments come alive through the lens! I'm passionate about capturing the beauty and essence of life, one click at a time. Whether it's a cherished family portrait, a milestone celebration, or a captivating landscape, I am here to transform your precious moments into lifelong memories.
+            With a keen eye for detail and a deep understanding of the art of photography, I am dedicated to creating stunning images that truly reflect the unique story of each individual or occasion. I believe that every photograph has the power to evoke emotions, preserve special moments, and tell a captivating tale that transcends time.
+            My goal is to go beyond the traditional boundaries of photography, aiming to capture those fleeting moments and spontaneous expressions that make each image come alive. I strive to create a comfortable and enjoyable environment, allowing your true personality to shine through in every frame.
+            Whether you're looking for a professional portrait session or event coverage, I offer a diverse range of photography services tailored to meet your specific needs.</p>
+    </div>
+
+    <div id="intro">
+        <a href="https://www.github.com/jbrigham08" target="_blank">My Github</a>
+
+        <figure>
+            <figcaption>Portfolio</figcaption>
+        </figure>
+    </div>
+
+    <div class="scroll-container">
+        <img src="DSC02626-Edit copy.JPG" alt="Cinque Terre" width="400" height="600">
+        <img src="DSC02717-Edit copy.JPG" alt="Forest" width="400" height="600">
+        <img src="DSC02803-Edit copy.JPG" alt="Northern Lights" width="400" height="600">
+        <img src="Mya18.JPG" alt="Northern Lights" width="400" height="600">
+        <img src="Mya10.JPG" alt="Northern Lights" width="400" height="600">
+        <img src="Mya8.JPG" alt="Northern Lights" width="400" height="600">
+    </div>
+
     <div>
         <h3>
-            <a href="https://www.github.com/jbrigham08" target="_blank">My Github</a>
-            <br>
-
-            <figure>
-            <img src="usflag.jpeg" alt="Country" width="50" height="50">
-            <figcaption>Country</figcaption>
-            </figure>
+            
 
             <div id="hobbies">
                 <p>My hobbies are:</p>
@@ -40,57 +63,51 @@
                     <li>Studying Web Development</li>
                     <li>Playing Tennis</li>
                 </ol>
-
-            <p>My name is Jeff and I was born & raised in Dallas, TX. I'm currently a Sr. Business Systems Analyst and studying web development part time.</p>
         </h3>
-    </div>
+    </div><br><br><br>
 
-    <img src="Jeff2.JPG" alt="This is my profile picture" width="300" height="400">
+    
 
-<table border="2">
-    <tr>
-        <td>Degree</td>
-        <td>School</td>
-        <td>State</td>
-        <td>Year</td>
-    </tr>
-    <tr><td>High School Diploma</td>
-        <td>DeSoto High School</td>
-        <td>Texas</td>
-        <td>2008</td>
-    </tr>
-    <tr>
-        <td>Bachelors Degree</td>
-        <td>Liberty University</td>
-        <td>Virginia</td>
-        <td>2019</td>
-    </tr>
-    <tr><td>Certification</td>
-        <td>W3 Schools</td>
-        <td>Texas</td>
-        <td>2023</td></tr>
-</table>
+<div id="second"></div>
+    <table class="centerj" border="2">
+        <tr>
+            <td>Degree</td>
+            <td>School</td>
+            <td>State</td>
+            <td>Year</td>
+        </tr>
+        <tr>
+            <td>High School Diploma</td>
+            <td>DeSoto High School</td>
+            <td>Texas</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>Bachelors Degree</td>
+            <td>Liberty University</td>
+            <td>Virginia</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Certification</td>
+            <td>W3 Schools</td>
+            <td>Texas</td>
+            <td>2023</td></tr>
+        </table>
+</div><br><br><br>
 
-<div id="contactMe">
+<div class="form">
     <h4>Contact Me</h4>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name"
+    required><br><br>
+    <label for="email">Email Address:</label><br>
+    <input type="text" name="email" id="email"
+    required><br><br>
+    <label for="textArea">Leave a Comment</label><br>
+    <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
 </div>
-
-<form>
-    <p>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name"
-        required>
-        <br>
-        <label for="email">Email Address:</label>
-        <input type="text" name="email" id="email"
-        required>
-        <br>
-        <label for="textArea">Leave a Comment</label>
-        <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
-        <br>
-        <button type="submit">Submit</button>
-    </p>
-</form>
-
 </body>
 </html>
